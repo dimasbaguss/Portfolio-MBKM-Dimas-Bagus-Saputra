@@ -13,11 +13,6 @@
     background-color: #e2edff;
 }
 
-.jumbotron h1 {
-    font-size: 30px;
-    font-weight: 200;
-}
-
 .jumbotron h1 span {
     font-size: 35px;
 }
@@ -49,7 +44,7 @@
 
 /* profil */
 .profil {
-    padding: 115px 0;
+    padding: 118px 0;
 }
 
 .profil h2 {
@@ -112,9 +107,13 @@
 
 /* footer */
 footer {
-    background-color: #e2edff;
+    background-color: #0B63DC;
     font-weight: 600;
     font-size: 14px;
+}
+
+footer a {
+    color: white;
 }
 
 footer a:hover {
@@ -123,7 +122,6 @@ footer a:hover {
 
 /* TAMPILAN DESKTOP */
 @media (min-width: 992px) {
-
     /* navbar */
     .navbar {
         background-color: #e2edff;
@@ -160,7 +158,7 @@ footer a:hover {
 
     .jumbotron img {
         padding: 4em 0;
-        width: 290px;
+        width: 300px;
     }
 
     .jumbotron h1 {
