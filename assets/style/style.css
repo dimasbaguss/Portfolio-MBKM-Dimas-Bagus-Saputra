@@ -1,0 +1,213 @@
+/* navbar */
+.navbar-brand {
+    font-family: 'Viga', sans-serif;
+    font-size: 25px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-color: #e2edff;
+}
+
+.jumbotron h1 {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.jumbotron h1 span {
+    font-size: 35px;
+}
+
+.jumbotron p {
+    font-weight: 200;
+}
+
+.jumbotron img {
+    width: 260px;
+    padding-bottom: 20px;
+}
+
+/* about */
+.about {
+    padding-top: 100px;
+}
+
+.about h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.about p {
+    font-weight: 200;
+    font-size: 17px;
+    padding: 0 30px;
+}
+
+/* profil */
+.profil {
+    padding: 115px 0;
+}
+
+.profil h2 {
+    font-weight: 600;
+}
+
+.profil h3 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.profil p {
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.profil h3::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0B63DC;
+    width: 15%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: 1px;
+}
+
+.profil .row-cols-1 {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    margin: 0 auto;
+}
+
+.profil a {
+    color: black;
+}
+
+.profil a:hover {
+    color: #0B63DC;
+}
+
+/* keahlian */
+.keahlian {
+    background-color: #e2edff;
+    padding: 80px 0;
+}
+
+.keahlian h2 {
+    font-weight: 600;
+}
+
+.keahlian .my-2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.keahlian .progress-bar {
+    font-size: 16px;
+}
+
+/* footer */
+footer {
+    background-color: #e2edff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: black;
+}
+
+/* TAMPILAN DESKTOP */
+@media (min-width: 992px) {
+
+    /* navbar */
+    .navbar {
+        background-color: #e2edff;
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 40px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    /* jumbotron */
+    .jumbotron {
+        margin-top: -75px;
+        height: 540px;
+    }
+
+    .jumbotron .teks {
+        padding: 8em 0;
+    }
+
+    .jumbotron img {
+        padding: 4em 0;
+        width: 290px;
+    }
+
+    .jumbotron h1 {
+        font-weight: 200;
+        font-size: 47px;
+    }
+
+    .jumbotron h1 span {
+        font-size: 54px;
+    }
+
+    .jumbotron p {
+        font-size: 18px;
+    }
+
+    /* about */
+    .about h2 {
+        text-align: justify;
+    }
+
+    .about p {
+        font-size: 19px;
+        padding: 0;
+    }
+
+    /* profil */
+    .profil h3 {
+        font-size: 20px;
+    }
+
+    .profil p {
+        font-size: 18px;
+    }
+
+    .profil .row-cols-1 {
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+        width: 560px;
+        margin: 0 auto;
+    }
+
+    /* keahlian */
+    .keahlian .my-2 {
+        font-size: 18px;
+    }
+
+    /* footer */
+    footer {
+        font-size: 16px;
+    }
+}
